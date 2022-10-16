@@ -8,10 +8,6 @@
 
     <title>HTML</title>
 
-    <!-- HTML -->
-
-
-    <!-- Custom Styles -->
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b9ba23b21e.js" crossorigin="anonymous"></script>
 </head>
@@ -19,7 +15,12 @@
 <body>
     <header>My Chores <span class="nv"><i class="fa-solid fa-bars"></i></span></header>
     <div class="div1">
-        <span class="my-input"><input type="text" name="add" id="new-todo" class="new-todo" placeholder="add a new to-do"><span class="add"><i class="fa-solid fa-square-plus fa-3x"></i></span></span>
+        <span class="my-input"><input type="text" name="add" id="new-todo" class="todo"
+        placeholder="add a new to-do"><span class="add" onclick="addNew()"><i
+          class="fa-solid fa-square-plus fa-3x"></i></span></span><br>
+        <div class="lists" id="list">
+
+        </div>
     </div>
     <script src="main.js"></script>
 </body>
